@@ -46,10 +46,10 @@
           <instance name="ADC" caption="Analog-to-Digital Converter">
             <register-group name="ADC" name-in-module="ADC" offset="0x00" address-space="data" caption="Analog-to-Digital Converter"/>
             <signals>
-              <signal group="ADC" index="0" function="default" pad="PA0"/>
-              <signal group="ADC" index="1" function="default" pad="PA1"/>
-              <signal group="ADC" index="2" function="default" pad="PA2"/>
-              <signal group="ADC" index="3" function="default" pad="PA3"/>
+              <signal group="ADC" index="0" function="default" pad="PB5"/>
+              <signal group="ADC" index="1" function="default" pad="PB2"/>
+              <signal group="ADC" index="2" function="default" pad="PB4"/>
+              <signal group="ADC" index="3" function="default" pad="PB3"/>
             </signals>
           </instance>
         </module>
