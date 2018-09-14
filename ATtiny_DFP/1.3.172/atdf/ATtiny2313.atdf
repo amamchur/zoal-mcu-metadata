@@ -46,11 +46,21 @@
         <module name="TC8">
           <instance name="TC0" caption="Timer/Counter, 8-bit">
             <register-group name="TC0" name-in-module="TC0" offset="0x00" address-space="data" caption="Timer/Counter, 8-bit"/>
+            <signals>
+              <signal group="T" function="default" pad="PD4"/>
+              <signal group="OCB" function="default" pad="PD5"/>
+              <signal group="OCA" function="default" pad="PB2"/>
+            </signals>
           </instance>
         </module>
         <module name="TC16">
           <instance name="TC1" caption="Timer/Counter, 16-bit">
             <register-group name="TC1" name-in-module="TC1" offset="0x00" address-space="data" caption="Timer/Counter, 16-bit"/>
+            <signals>
+              <signal group="T" function="default" pad="PD5"/>
+              <signal group="OCB" function="default" pad="PB4"/>
+              <signal group="OCA" function="default" pad="PB3"/>
+            </signals>
           </instance>
         </module>
         <module name="WDT">
