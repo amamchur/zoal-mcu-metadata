@@ -5202,6 +5202,12 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               <bitOffset>18</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
+            <field>
+              <name>TIM20EN</name>
+              <description>TIM20 timer clock enable</description>
+              <bitOffset>20</bitOffset>
+              <bitWidth>1</bitWidth>
+            </field>
           </fields>
         </register>
         <register>
@@ -5276,14 +5282,14 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>USART4EN</name>
-              <description>USART 4 clock enable</description>
+              <name>UART4EN</name>
+              <description>UART 4 clock enable</description>
               <bitOffset>19</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>USART5EN</name>
-              <description>USART 5 clock enable</description>
+              <name>UART5EN</name>
+              <description>UART 5 clock enable</description>
               <bitOffset>20</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
